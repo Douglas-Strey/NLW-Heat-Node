@@ -31,6 +31,8 @@ class AuthenticateUserService {
             }
         })
 
+        const { login, id, avatar_url, name } = response.data;
+
         return response.data;
     }
 }
